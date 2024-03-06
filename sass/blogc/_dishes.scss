@@ -1,0 +1,13 @@
+
+
+#dishes {
+    background-image: url(../../images/dishes/Mask\ Group\ \(12\).png);
+    background-position: center;
+    background-size: cover;
+}
+
+.dishes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}

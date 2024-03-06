@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  block-size: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.df {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+@mixin main-btn () {
+  padding: 15px 20px;
+  border: 2px solid transparent;
+  font-size: 14px;
+  font-weight: 700;
+  color: $secondaryCl;
+  background-color: $hoverCl;
+  transition: .3s;
+  &:hover {
+    background-color: transparent;
+    border-color: $hoverCl;
+    color: $hoverCl;
+  }
+  @media (max-width:800px) {
+    padding: 10px 15px;
+  }
+}

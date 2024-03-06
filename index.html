@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- global AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- lokal -->
+  <link rel="stylesheet" href="./css/style.min.css">
+  <title>Sass</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="header__navbar container df">
+      <div class="header__logo">
+        <a href="./index.html"><img src="./images/header/LOGO (2).svg" alt=""></a>
+      </div>
+      <ul class="header__list df">
+        <li class="header__item">
+          <a href="#">ГЛАВНАЯ</a>
+        </li>
+        <li class="header__item">
+          <a href="#">МЕНЮ</a>
+        </li>
+        <li class="header__item">
+          <a href="#">О НАС</a>
+        </li>
+        <li class="header__item">
+          <a href="#">БРОНЬ23</a>
+        </li>
+      </ul>
+      <div class="header__btn-wrapp">
+        <button class="header__btn main-btn">ЗАКАЗ СТОЛИКА</button>
+        <button class="header__hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+  <!-- ----------------- Header Start ------------- -->
+
+  <main>
+    <!-- ----------------- Hero Start --------------- -->
+    <section id="hero">
+      <div class="container">
+        <div class="hero__info">
+          <p class="hero__info__deck">Добро пожаловать в</p>
+          <h1 class="hero__info__tittle">Наш ресторан</h1>
+          <p class="hero__info__text">----ДОМ ЛУЧШЕЙ ЕДЫ----</p>
+          <button class="hero__info__btn">VIEW MENU</button>
+        </div>
+        <div class="hero__card-wrapp">
+          <div  data-aos="fade-right" class="hero__card">
+            <img src="./images/hero/Mask Group.svg" alt="">
+            <h4 class="hero__card__tittle">Магическая <span>Атмосфера</span></h4>
+            <p class="hero__card__text">В нашем заведении царит магическая атмосфера
+              наполненная вкусными ароматами</p>
+          </div>
+          <div data-aos="flip-up" class="hero__card hero__card__none">
+            <img src="./images/hero/Mask Group.svg" alt="">
+            <h4 class="hero__card__tittle">Магическая <span>Атмосфера</span></h4>
+            <p class="hero__card__text">В нашем заведении царит магическая атмосфера
+              наполненная вкусными ароматами</p>
+          </div>
+          <div  data-aos="fade-left" class="hero__card">
+            <img src="./images/hero/Mask Group.svg" alt="">
+            <h4 class="hero__card__tittle">Магическая <span>Атмосфера</span></h4>
+            <p class="hero__card__text">В нашем заведении царит магическая атмосфера
+              наполненная вкусными ароматами</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------------- Hero End ----------------- -->
+
+    <!-- ----------------- About Start -------------- -->
+    <section>
+      <div class="container about-wrapp">
+        <div class="about df">
+          <div class="about__info">
+            <h2 class="about__info__tittle">Наша <span>История</span></h2>
+            <p class="about__info__text">Как и у любого другого самобытного места, у нас есть своя, особая история. Идея ресторана
+              пришла основателям неожиданно.
+              Во время прогулки по лесу создатель нашего ресторана застрял в сотнях километров от ближайшего населенного пункта.
+              Вдали
+              от цивилизации и связи им пришлось навремя обустровать себе нехитрый быт, добывать и готовить себе еду.</p>
+            <div class="about__info__bottom">
+              <div>
+                <h3>93</h3>
+                <p>Напитки</p>
+              </div>
+              <div>
+                <h3>206</h3>
+                <p>Еда</p>
+              </div>
+              <div>
+                <h3>71</h3>
+                <p>Закуски</p>
+              </div>
+            </div>
+          </div>
+          <div class="about__right">
+            <img src="./images/about/images.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="about__bottom">
+        <div class="df container">
+          <div class="about__bottom__info">
+            <h3>Отпразднуйте в одном из
+              самых лучших ресторанов.</h3>
+            <p>Только в этом месяце бизнес-ланч от 250 ₽</p>
+          </div>
+          <button class="about__bottom__btn">ЗАКАЗ СТОЛИКА</button>
+        </div>
+      </div>
+    </section>
+    <!-- ----------------- About End -------------- -->
+
+    <!-- ----------------- Dishes Start ----------- -->
+    <section id="dishes">
+      <div class="container">
+        <div class="dishes">
+
+        </div>
+      </div>
+    </section>
+    <!-- ----------------- Dishes End ------------- -->
+  </main>
+  <!-- global AOS js -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  <!-- Local js -->
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
