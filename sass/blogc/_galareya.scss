@@ -1,0 +1,62 @@
+
+
+
+.galareya {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 80%;
+    margin: 0 auto;
+    @media (max-width:1300px) {
+        flex-direction: column;
+    }
+}
+
+.galareya:nth-child(1) > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    div {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: center;
+    }
+
+    @media (max-width:600px) {
+        div {
+            flex-direction: column;
+            
+        }
+        img {
+                width: 100%;
+                height: auto;
+                
+                max-width: 253px;
+            }
+    }
+}
+
+
+.cooks__tittle {
+    font-size: 36px;
+    font-weight: 400;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.cooks__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    img {
+        width: 100%;
+    }
+
+    @media (max-width:800px) {
+        grid-template-columns: .8fr;
+        justify-content: center;
+        grid-gap: 40px;
+    }
+}
